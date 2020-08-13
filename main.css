@@ -1,3 +1,30 @@
 body {
-    background-color: purple;
+   
+}
+
+.background {
+     background: url(
+    "https://www.almanac.com/sites/default/files/styles/primary_image_in_article/public/image_nodes/lavender-field-1595587_1920.jpg?itok=b0W1Lnix") no-repeat fixed center;
+}
+
+.fade-background {
+    background-color: red;
+    height: 100%;
+    width: 100%;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: aqua
+}
+
+.dropdown:hover .dropdown-content {
+    display: block
 }
